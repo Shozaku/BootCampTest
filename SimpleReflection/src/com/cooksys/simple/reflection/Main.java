@@ -11,6 +11,11 @@ public class Main {
 	public static void main(String[] args) {
 		Main main = new Main();
 		main.doThings();
+		main.doCoolThings();
+	}
+	
+	private void doCoolThings() {
+		System.out.println(cool);
 	}
 	
 	private void doThings(){
