@@ -15,6 +15,7 @@ public class Main {
 	}
 	
 	private void doCoolThings() {
+		Cool cool = new Cool();
 		System.out.println(cool);
 	}
 	
